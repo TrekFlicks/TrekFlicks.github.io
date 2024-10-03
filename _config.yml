@@ -1,7 +1,7 @@
 # Site
-name: "NinggraIngga"
-title: "NinggraIngga"
-description: "Discover the world's Hidden Vacation Gems"
+name: "TrekFlicks"
+title: "TrekFlicks"
+description: "your passport to paradise"
 logo: '/favicon.ico'
 favicon: '/favicon.ico'
 baseurl: /
@@ -58,7 +58,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 4
+paginate: 8
 paginate_path: /page:num/
     
 # Other
