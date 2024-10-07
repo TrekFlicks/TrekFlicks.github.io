@@ -143,20 +143,7 @@ var script_url=HOST+"/feeds/posts/default";bcd140526_index_label&&(script_url+="
 
 
 
-<div id="iska2-grid-container">
-    {% for post in site.categories.jordan limit: 100 %}
-    <div class="iska2-grid-item">
-        <a href="{{ post.url }}">
-            <img src="{{ post.image }}" alt="{{ post.title }}">
-        </a>
-     <a href="{{ post.url }}" class="iska2-title">   <h5>{{ post.title }}</h5>
-    </a>
-    </div>
-    {% endfor %}
-</div><br />
 
-
-<hr><br>
 	
 	
 
